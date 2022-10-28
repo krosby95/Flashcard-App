@@ -1,0 +1,93 @@
+{
+  "decks": [
+    {
+      "id": 1,
+      "name": "Rendering in React",
+      "description": "React's component structure allows for quickly building a complex web application that relies on DOM manipulationsss"
+    },
+    {
+      "name": "React Router",
+      "description": "React Router is a collection of navigational components that compose declaratively with your application.",
+      "id": 2
+    },
+    {
+      "name": "Example",
+      "description": "Example Word, Words, Words",
+      "id": 3
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "front": "Differentiate between Real DOM and Virtual DOMsss\n",
+      "back": "Virtual DOM updates are faster but do not directly update the HTML",
+      "deckId": 1
+    },
+    {
+      "id": 2,
+      "front": "How do you modify the state of a different React components??",
+      "back": "Not at all! State is visible to the component only.",
+      "deckId": 1
+    },
+    {
+      "id": 3,
+      "front": "How do you pass data 'down' to a React child component?",
+      "back": "As properties or props",
+      "deckId": 1
+    },
+    {
+      "front": "What path will match the follow Route?\n<Route>\n  <NotFound />\n</Route>",
+      "back": "All paths. A route with no path matches all URL's",
+      "deckId": 2,
+      "id": 4
+    },
+    {
+      "front": "What does <Switch> do?!!!",
+      "back": "Renders the first matching child <Route> ",
+      "deckId": 2,
+      "id": 5
+    },
+    {
+      "front": "Example #1",
+      "back": "42 is the answer to the universe",
+      "deckId": 3,
+      "id": 6
+    },
+    {
+      "front": "Example #2",
+      "back": "Its not the person who has very little that is poor, but the person who always wants moredswdwdw",
+      "deckId": 3,
+      "id": 7
+    },
+    {
+      "front": "Example #3: Which Beyonce song from the new album is a Bop",
+      "back": "Summer Renaissance ",
+      "deckId": 3,
+      "id": 8
+    },
+    {
+      "front": "",
+      "back": "",
+      "deckId": 2,
+      "id": 9
+    },
+    {
+      "front": "test",
+      "back": "answer",
+      "deckId": 2,
+      "id": 10
+    },
+    {
+      "front": "michake is cute",
+      "back": "yes he is ",
+      "deckId": 3,
+      "id": 11
+    },
+    {
+      "front": "test",
+      "back": "answer",
+      "deckId": 2,
+      "id": 12
+    }
+  ]
+}
