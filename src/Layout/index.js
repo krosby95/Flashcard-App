@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Header from "./Header";
 import NotFound from "./NotFound";
 import Home from "./Home";
@@ -15,7 +15,7 @@ function Layout() {
     <>
       <Header />
       <div className="container">
-        <Routes>
+        <Switch>
           <Route exact path="/">
             <Home />
           </Route>
@@ -38,7 +38,7 @@ function Layout() {
             <EditCard />
           </Route>
           <NotFound />
-        </Routes>
+        </Switch>
       </div>
     </>
   );

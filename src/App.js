@@ -1,15 +1,15 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Layout from "./Layout";
 
 function App() {
   return (
     <div className="app-routes">
-      <Routes>
+      <Switch>
         <Route path="/">
           <Layout />
         </Route>
-      </Routes>
+      </Switch>
     </div>
   );
 }
