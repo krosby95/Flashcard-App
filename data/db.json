@@ -72,22 +72,10 @@
       "id": 9
     },
     {
-      "front": "test",
-      "back": "answer",
-      "deckId": 2,
-      "id": 10
-    },
-    {
       "front": "michake is cute",
       "back": "yes he is ",
       "deckId": 3,
       "id": 11
-    },
-    {
-      "front": "test",
-      "back": "answer",
-      "deckId": 2,
-      "id": 12
     }
   ]
 }

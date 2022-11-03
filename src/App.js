@@ -1,17 +1,17 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 
 function App() {
-    return (
-        <div className="app-routes">
-            <Switch>
-                <Route path="/">
-                    <Layout />
-                </Route>
-            </Switch>
-        </div>
-    );
+  return (
+    <div className="app-routes">
+      <Routes>
+        <Route path="/">
+          <Layout />
+        </Route>
+      </Routes>
+    </div>
+  );
 }
 
 export default App;
